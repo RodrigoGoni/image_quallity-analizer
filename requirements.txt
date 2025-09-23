@@ -1,0 +1,9 @@
+# requirements.txt
+numpy
+opencv-python
+matplotlib
+scipy
+scikit-image
+opencv-python
+scikit-learn
+
