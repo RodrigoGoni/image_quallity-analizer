@@ -61,44 +61,39 @@ El Unsharp Masking mejora significativamente la detección de enfoque, especialm
 #### 1. Transformada de Fourier
 Visualización del espectro de frecuencias frame por frame:
 
-<video width="640" height="360" controls>
-  <source src="outputs/fourier_transform_video.mp4" type="video/mp4">
-  Tu navegador no soporta el elemento de video. <a href="outputs/fourier_transform_video.mp4">Descargar video</a>
-</video>
+https://user-images.githubusercontent.com/usuario/assets/fourier_transform_video.mp4
+
+*[📹 Ver video completo](outputs/fourier_transform_video.mp4)*
 
 #### 2. Detección STA3 (Gray-level Variance)
 Puntos de máximo enfoque usando algoritmo STA3 - Marcadores rojos indican zonas de máximo enfoque:
 
-<video width="640" height="360" controls>
-  <source src="outputs/focus_points_video_STA3.mp4" type="video/mp4">
-  Tu navegador no soporta el elemento de video. <a href="outputs/focus_points_video_STA3.mp4">Descargar video</a>
-</video>
+https://user-images.githubusercontent.com/usuario/assets/focus_points_video_STA3.mp4
+
+*[📹 Ver video completo](outputs/focus_points_video_STA3.mp4)*
 
 #### 3. Detección LAP2 (Laplaciano Modificado)
 Puntos de máximo enfoque usando algoritmo LAP2 - Mayor precisión en condiciones ideales:
 
-<video width="640" height="360" controls>
-  <source src="outputs/focus_points_video_LAP2.mp4" type="video/mp4">
-  Tu navegador no soporta el elemento de video. <a href="outputs/focus_points_video_LAP2.mp4">Descargar video</a>
-</video>
+https://user-images.githubusercontent.com/usuario/assets/focus_points_video_LAP2.mp4
+
+*[📹 Ver video completo](outputs/focus_points_video_LAP2.mp4)*
 
 ### Videos con Unsharp Masking
 
 #### 4. STA3 + Unsharp Moderado
 Algoritmo STA3 con realce moderado de imagen - Marcadores amarillos para distinguir del análisis básico:
 
-<video width="640" height="360" controls>
-  <source src="outputs/focus_points_STA3_Unsharp_Moderate.mp4" type="video/mp4">
-  Tu navegador no soporta el elemento de video. <a href="outputs/focus_points_STA3_Unsharp_Moderate.mp4">Descargar video</a>
-</video>
+https://user-images.githubusercontent.com/usuario/assets/focus_points_STA3_Unsharp_Moderate.mp4
+
+*[📹 Ver video completo](outputs/focus_points_STA3_Unsharp_Moderate.mp4)*
 
 #### 5. LAP2 + Unsharp Intenso
 Algoritmo LAP2 con realce intenso de imagen - Mejor detección en zonas de bajo contraste:
 
-<video width="640" height="360" controls>
-  <source src="outputs/focus_points_LAP2_Unsharp_Intense.mp4" type="video/mp4">
-  Tu navegador no soporta el elemento de video. <a href="outputs/focus_points_LAP2_Unsharp_Intense.mp4">Descargar video</a>
-</video>
+https://user-images.githubusercontent.com/usuario/assets/focus_points_LAP2_Unsharp_Intense.mp4
+
+*[📹 Ver video completo](outputs/focus_points_LAP2_Unsharp_Intense.mp4)*
 
 ## Requisitos
 
